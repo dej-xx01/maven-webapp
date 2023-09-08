@@ -86,6 +86,7 @@ btn.addEventListener("click", function(){
     inputEl.style.transform = "translateY(-50px)"
     btn.style.transform = "translateY(-50px)"
     display()
+    inputEl.value = " "
 });
 
 
