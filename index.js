@@ -13,7 +13,6 @@ let inputEl = document.getElementById("input-el")
 const symbols = document.querySelectorAll("#sign")
 const cancelBtn = document.querySelector("#cancel-btn")
 const qBox = document.getElementById("q-box")
-let marqEl = document.getElementById("marq")
 
 const students = [
 {
@@ -86,7 +85,6 @@ btn.addEventListener("click", function(){
     qBox.style.top = "50%"
     inputEl.style.transform = "translateY(-50px)"
     btn.style.transform = "translateY(-50px)"
-    marqEl.style.display = "none"
     display()
 });
 
